@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav__content">
+                <div class="logo"><a href="#">Parth</a></div>
+                <label for="check" class="checkbox">
+                  <i class="ri-menu-line"></i>
+                </label>
+                <input type="checkbox" name="check" id="check" />
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+        </nav>
+    </header>    
+    <body>
+        <section id="contact">
+            <h1>Contact Me</h1>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <a href="mailto:parthmundhra2006@gmail.com">parthmundhra2006@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://github.com/ParthMundhra">Github</a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.linkedin.com/in/parthmundhra" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <a href="https://instagram.com/parthhatesinsta" target="_blank">Instragram</a>
+                </div>
+                <!-- Add more contact methods as needed -->
+            </div>
+            <form class="contact-form">
+                <h2>Send me a message</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </body>
+</html>
